@@ -1,0 +1,20 @@
+<databaseChangeLog 
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext
+   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd 
+   http://www.liquibase.org/xml/ns/dbchangelog 
+   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+	<include file="changelogs/neocloud4j-core-dbchangelog-master.xml"/>
+	<include file="changelogs/neocloud4j-thumbed-dbchangelog-master.xml"/>
+	<include file="changelogs/neocloud4j-classifiable-dbchangelog-master.xml"/>
+	<include file="changelogs/neocloud4j-contactable-dbchangelog-master.xml"/>
+	<include file="changelogs/neocloud4j-people-dbchangelog-master.xml"/>
+	<include file="changelogs/neocloud4j-multi-identifiable-dbchangelog-master.xml"/>
+
+	<!-- Do not update this file, import it from your own-->
+
+</databaseChangeLog>
+
