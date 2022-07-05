@@ -1,0 +1,1 @@
+{"entities":[{"path":"badge.json","order":0},{"path":"pointer.json","order":1},{"path":"cardRequest.json","order":2},{"path":"resourceAccess.json","order":3}],"restUriPrefix":"/neocloud4j/online/v1/secured/api/","tablePrefix":"GEN_","entityPackage":"my.coreapp"}

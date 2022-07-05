@@ -1,0 +1,8 @@
+event_key;event_class
+
+PRE_CREATE_BADGE;my.coreapp.model.event.PreCreateBadge
+PRE_DELETE_BADGE;my.coreapp.model.event.PreDeleteBadge
+PRE_UPDATE_BADGE;my.coreapp.model.event.PreUpdateBadge
+POST_CREATE_BADGE;my.coreapp.model.event.PostCreateBadge
+POST_DELETE_BADGE;my.coreapp.model.event.PostDeleteBadge
+POST_UPDATE_BADGE;my.coreapp.model.event.PostUpdateBadge

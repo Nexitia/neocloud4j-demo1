@@ -1,0 +1,8 @@
+event_key;event_class
+
+PRE_CREATE_POINTER;my.coreapp.model.event.PreCreatePointer
+PRE_DELETE_POINTER;my.coreapp.model.event.PreDeletePointer
+PRE_UPDATE_POINTER;my.coreapp.model.event.PreUpdatePointer
+POST_CREATE_POINTER;my.coreapp.model.event.PostCreatePointer
+POST_DELETE_POINTER;my.coreapp.model.event.PostDeletePointer
+POST_UPDATE_POINTER;my.coreapp.model.event.PostUpdatePointer

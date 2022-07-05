@@ -35,7 +35,7 @@
                     <printPostContent>false</printPostContent>
                     <printContributedVariables>false</printContributedVariables>
                     <causeString>Triggered from Webhook</causeString>
-                    <token>webhook_master_build_testproject_start</token>
+                    <token>webhook_master_build_pointage_start</token>
                     <tokenCredentialId/>
                     <silentResponse>false</silentResponse>
                     <overrideQuietPeriod>false</overrideQuietPeriod>
@@ -48,7 +48,7 @@
             <configVersion>2</configVersion>
             <userRemoteConfigs>
                 <hudson.plugins.git.UserRemoteConfig>
-                    <url>git@github.com:Nexitia/testproject.git</url>
+                    <url>git@github.com:Nexitia/pointage.git</url>
                     <credentialsId>194f6500-fbce-42e5-bec2-3d5f463b383d</credentialsId>
                 </hudson.plugins.git.UserRemoteConfig>
             </userRemoteConfigs>

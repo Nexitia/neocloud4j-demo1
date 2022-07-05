@@ -1,0 +1,8 @@
+event_key;event_class
+
+PRE_CREATE_CARDREQUEST;my.coreapp.model.event.PreCreateCardRequest
+PRE_DELETE_CARDREQUEST;my.coreapp.model.event.PreDeleteCardRequest
+PRE_UPDATE_CARDREQUEST;my.coreapp.model.event.PreUpdateCardRequest
+POST_CREATE_CARDREQUEST;my.coreapp.model.event.PostCreateCardRequest
+POST_DELETE_CARDREQUEST;my.coreapp.model.event.PostDeleteCardRequest
+POST_UPDATE_CARDREQUEST;my.coreapp.model.event.PostUpdateCardRequest

@@ -1,2 +1,2 @@
-drop schema IF EXISTS testproject CASCADE;
-create schema testproject;
+drop schema IF EXISTS pointage CASCADE;
+create schema pointage;
