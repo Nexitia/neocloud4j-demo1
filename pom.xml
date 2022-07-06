@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>testproject</artifactId>
+    <artifactId>demo1</artifactId>
     <groupId>com.nt.neocloud4j</groupId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <!--context.root>testproject</context.root-->
+        <!--context.root>demo1</context.root-->
 
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <camel.xstream.version>2.21.0</camel.xstream.version>
@@ -576,7 +576,7 @@
                                     <goal>repackage</goal>
                                 </goals>
                                 <configuration>
-                                    <finalName>testproject</finalName>
+                                    <finalName>demo1</finalName>
                                     <classifier>exec</classifier>
                                 </configuration>
                             </execution>
@@ -598,7 +598,7 @@
                                 <image>neocloud4j/base-jdk17</image>
                             </from>
                             <to>
-                                <image>neocloud4j/testproject:latest</image>
+                                <image>neocloud4j/demo1:latest</image>
                                 <auth>
                                     <username>${DOCKER_HUB_USERNAME}</username>
                                     <password>${DOCKER_HUB_PASSWORD}</password>
@@ -648,7 +648,7 @@
                                 <image>neocloud4j/base-jdk17</image>
                             </from>
                             <to>
-                                <image>neocloud4j/testproject:latest-snapshot</image>
+                                <image>neocloud4j/demo1:latest-snapshot</image>
                                 <auth>
                                     <username>${DOCKER_HUB_USERNAME}</username>
                                     <password>${DOCKER_HUB_PASSWORD}</password>
@@ -678,11 +678,11 @@
                                             <mode>777</mode>
                                         </permission>
                                         <permission>
-                                            <file>/neocloud4j/localDb/testproject.mv.db</file>
+                                            <file>/neocloud4j/localDb/demo1.mv.db</file>
                                             <mode>777</mode>
                                         </permission>
                                         <permission>
-                                            <file>/neocloud4j/localDb/testproject.trace.db</file>
+                                            <file>/neocloud4j/localDb/demo1.trace.db</file>
                                             <mode>777</mode>
                                         </permission>
                                     </permissions>
