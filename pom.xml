@@ -598,7 +598,7 @@
                                 <image>neocloud4j/base-jdk17</image>
                             </from>
                             <to>
-                                <image>neocloud4j/demo1:latest</image>
+                                <image>neocloud4j/neocloud4j-demo1:latest</image>
                                 <auth>
                                     <username>${DOCKER_HUB_USERNAME}</username>
                                     <password>${DOCKER_HUB_PASSWORD}</password>
@@ -648,7 +648,7 @@
                                 <image>neocloud4j/base-jdk17</image>
                             </from>
                             <to>
-                                <image>neocloud4j/demo1:latest-snapshot</image>
+                                <image>neocloud4j/neocloud4j-demo1:latest-snapshot</image>
                                 <auth>
                                     <username>${DOCKER_HUB_USERNAME}</username>
                                     <password>${DOCKER_HUB_PASSWORD}</password>
